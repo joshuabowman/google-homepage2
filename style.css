@@ -1,0 +1,146 @@
+/* General Style */
+body {
+	margin: 0;
+}
+
+/* Main Navigation */
+
+.main_nav {
+	display:block;
+}
+
+.main_nav ul {
+	list-style-type: none;
+	margin: auto;
+	padding: 10px;
+	float: right;
+	vertical-align: middle;
+}
+.main_nav li {
+	display: inline-block;
+	float: left;
+}
+.main_nav a {
+	width: 80px;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	opacity: .55;
+}
+.main_nav a:hover {
+	text-decoration: underline;
+}
+#plus {
+	width: 70px;
+	height: 24px;
+}
+#gmail {
+	width: 50px;
+	height: 24px;
+}
+#images {
+	width: 60px;
+	height: 24px;
+}
+
+#menu, #alert, #profile {
+	display: inline-block;
+	vertical-align: middle;
+}
+#menu, #alert {
+	background-image: url('https://ssl.gstatic.com/gb/images/v1_2e543709.png');
+	background-size: 112px 1828px;
+	height: 30px; width: 30px;
+	opacity: .55;
+}
+#menu {
+  background-position: -50px -455px;
+}
+#alert {
+  background-position: 0 -1042px;
+}
+#profile {
+	background-image: url('https://lh4.googleusercontent.com/-ILIh5H4JYyM/AAAAAAAAAAI/AAAAAAAAAAA/S4t027zXqe4/s32-c/photo.jpg');
+	background-size: 32px 32px;
+  	border-radius: 50%;
+  	height: 32px; width: 32px;
+  	background-position: center;
+}
+#share {
+	display: block;
+	width: 58px;
+	height: 30px;
+	background-color: rgb(238,238,238);
+	text-align: center;
+	font-style: #000, arial, sans-serif;
+	margin-right: 10px;
+
+}
+#share:hover {
+  background-color: rgb(232,232,232);
+  text-decoration: none;
+}
+
+/* Content of the page */
+.content {
+	display: block;
+	clear:both;
+}
+#logo {
+	margin-top: 100px;
+}
+#bar {
+	width: 500px;
+}
+#Google_search {
+	display:inline-block;
+	background: #f1f1f1;
+	text-decoration: none;
+	border: 1px solid #000001;
+	border-color: #000001;
+	border-radius: 2px;
+	padding: 8px 10px;
+	font-style: #000000;
+}
+#lucky {
+	display:inline-block;
+	background: #f1f1f1;
+	text-decoration: none;
+	border: 1px solid #000001;
+	border-color: #000001;
+	border-radius: 2px;
+	padding: 8px 10px;
+	font-style: #000000;
+}
+
+/* Footer Stylings */
+
+.footer {
+	position: fixed;
+	background-color: rgb(232, 232, 232);
+	bottom: 0;
+	width: 100%;
+	display: block;
+	clear: both;
+}
+.footer li {
+	display: inline;
+	list-style: none;
+	padding-left: 15px;
+}
+.footer a{
+	text-decoration: none;
+}
+#footer_left {
+	list-style-type: none;
+	float: left;
+	display: inline;
+	padding-left: 15px;
+}
+#footer_right {
+	list-style-type: none;
+	position: relative;
+	float: right;
+	display: inline;
+	padding-right: 15px;
+}
